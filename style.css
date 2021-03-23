@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lexend', sans-serif;
+
+}
+
+body > .content{
+  background-image:url(MaterialeEsercizioLim/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display:block;
+  position: relative;
+  height: 100vh;
+  width: 100vh;
+}
+
+#viewport{
+  margin:auto;
+  background-color:rgba(0,0,0,0.5);
+  border-radius: 10px;
+  width:60%;
+  height:80%;
+
+  position: absolute;
+  top: 50%;
+  left:52%;
+  transform: translate(-50%,-50%);
+}
+
+img{
+  width:20%;
+}
+
+.box{
+  text-align:center;
+  margin: 100px 100px;
+}
+
+h2{
+  color:rgb(34,219,39);
+}
+
+.set-button{
+  background-color: rgb(34,219,39);
+  border-radius: 1px;
+  padding: 10px;
+}
+
+button{
+    padding: 3px;
+  border-radius: 2px;
+  border: solid 1px darkgrey;
+  background-color: floralwhite;
+}
+
+button:hover{
+  background-color: darkgray;
+  color:black;
+  border: solid 1px darkgrey;
+}
+
+.section{
+ color: white;
+ text-align: left;
+ margin-top: 15px;
+ margin-right: 4px;
+ font-size: 14px;
+}
+
+.section > p{
+  margin: 2px;
+  }
+
+.section span{
+font-size: 20px;
+}
+
+.bar{
+    margin-top: 3px;
+    border-radius: 3px;
+    height: 2.5vh;
+}
+
+.orange{
+  background-color: rgb(243,179,92);
+  width: 35vh;
+}
+
+.green{
+  background-color: rgb(44,193,46);
+  width: 60vh;
+}
+
+.red{
+  background-color: rgb(188,66,68);
+  width: 15vh;
+}
